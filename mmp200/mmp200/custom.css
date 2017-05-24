@@ -5,10 +5,18 @@ body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow-x: hidden;
 }
+h1 {
+	font-family: fantasy
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #1E90FF;
+}
 
-
-
-
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 
 
